@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
             }
             return Padding(
                 padding: const EdgeInsets.only(left: 20, right: 20),
-                child: PlacesCard(hairdresser: _hairdressers));
+                child: PlacesCard(hairdresser: _hairdressers[index]));
           },
         )));
   }
